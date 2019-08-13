@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>个人简历1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="wjcuij@qq.com, , skylin"/>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet' type='text/css'>
+<script type="application/x-javascript">
+	addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+	function hideURLbar() { window.scrollTo(0,1); };
+</script>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.nicescroll.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="js/pie-chart.js" ></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<script type="text/javascript">
+	$(document).ready(function () {
+		$('#demo-pie-1').pieChart({
+			barColor: '#10A7AF',
+			trackColor: '#fff',
+			lineCap: 'round',
+			lineWidth: 8,
+			onStep: function (from, to, percent) {
+				$(this.element).find('.pie-value').text(Math.round(percent) + '%');
+			}
+		});
+
+		$('#demo-pie-2').pieChart({
+			barColor: '#10A7AF',
+			trackColor: '#fff',
+			lineCap: 'butt',
+			lineWidth: 8,
+			onStep: function (from, to, percent) {
+				$(this.element).find('.pie-value').text(Math.round(percent) + '%');
+			}
+		});
+
+		$('#demo-pie-3').pieChart({
+			barColor: '#10A7AF',
+			trackColor: '#fff',
+			lineCap: 'square',
+			lineWidth: 8,
+			onStep: function (from, to, percent) {
+				$(this.element).find('.pie-value').text(Math.round(percent) + '%');
+			}
+		});
+	});
+</script>
+</head>
+<body>
+<!-- header -->
+<div class="header-top">
+	<div class="container">
+		<ul>
+			<li><a class="scroll" href="#about"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>主页</a></li>
+			<li><a class="scroll" href="#emailme"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>联系我</a></li>
+			<li><a href="javascript:window.print()"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>打印</a></li>
+			<li><a href="#portfolioModal9" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>My Photo</a></li>
+		</ul>
+	</div>
+</div>	
+<div class="header">
+	<div class="container">
+		<div class="col-md-8 header-left">
+			<div class="col-sm-5 pro-pic">
+				<img class="img-responsive" src="images/pic1.jpg" alt=" "/>
+			</div>
+			<div class="col-sm-5 pro-text">
+				<h1>黄翠健</h1>
+				<p>前端工程师</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="col-md-4 header-right ">
+			<ul class="list-left">
+				<li>Email:</li>
+				<li>Github:</li>
+				<li>Phone:</li>
+				<li>WeChat: </li>
+			</ul>
+			<ul class="list-right">
+				<li><a href="mailto:info@example.com">wjcuij@qq.com</a></li>
+				<li><a href="mailto:info@example.com">github.com/wjcuij</a></li>
+				<li>134-3389-6784</li>
+				<li>Zr_wjcuij</li>
+			</ul>
+			<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- header-end -->
+<!-- about -->
+<div id="about" class="about">
+	<div class="container">
+		<h3 class="tittle">About Me</h3>
+		<p class="abt-para">熟悉高度还原设计图对接数据，责任感高，正在学习热门框架中...</p>
+	</div>
+	<div class="col-md-6 abt-left ">
+		<div class="accordion">
+			<div class="accordion-section">
+				<h5><a class="accordion-section-title" href="#accordion-1">
+					<span>学 &nbsp; &nbsp; &nbsp; &nbsp;历</span> 大专
+				<div class="clearfix"></div>
+				</a></h5>
+			</div>
+			<div class="accordion-section">
+				<h5><a class="accordion-section-title" href="#accordion-2">
+					<span>专 &nbsp; &nbsp; &nbsp; &nbsp;业</span> 计算机网络技术
+				<div class="clearfix"></div>
+				</a></h5>
+			</div>
+			<div class="accordion-section">
+				<h5><a class="accordion-section-title" href="#accordion-3">
+					<span>年 &nbsp; &nbsp; &nbsp; &nbsp;龄</span> 24
+				<div class="clearfix"></div>
+				</a></h5>
+			</div>
+			<div class="accordion-section">
+				<h5><a class="accordion-section-title" href="#accordion-4">
+					<span>工作年限</span> 3年
+					<div class="clearfix"></div>
+				</a></h5>
+			</div>
+			<div class="accordion-section">
+				<h5><a class="accordion-section-title" href="#accordion-4">
+					<span>目前状态</span> 离职
+					<div class="clearfix"></div>
+				</a></h5>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-6 abt-right ">
+		<div class="col-sm-4 abt-gd-left text-center">
+			<div id="demo-pie-1" class="pie-title-center" data-percent="80"><span class="pie-value"></span></div>
+			<h4>HTML</h4>
+		</div>
+		<div class="col-sm-4 abt-gd-left text-center">		   
+			<div id="demo-pie-2" class="pie-title-center" data-percent="80"><span class="pie-value"></span></div>
+			<h4>CSS</h4>
+		</div>
+		<div class="col-sm-4 abt-gd-left text-center">		   
+			<div id="demo-pie-3" class="pie-title-center" data-percent="65"><span class="pie-value"></span></div>
+			<h4>JavaScript</h4>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<div class="clearfix"></div>
+</div>
+<!-- about-end -->
+<!-- more skills -->
+<div class="more">
+	<div class="container">
+		<h3 class="tittle ">Skills</h3>
+		<div class="col-md-6 skill-left ">
+			<div class="progress">
+				<div class="progress-bar progress-bar-success" style="width: 30%">layui、Amaze
+					<span class="sr-only">35% Complete (success)</span>
+				</div>
+				<div class="progress-bar progress-bar-warning " style="width: 30%">
+					<span class="sr-only"></span>
+				</div>
+				<p>60%</p>
+				<div class="clearfix"></div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-success1" style="width: 30%">ajax
+					<span class="sr-only">35% Complete (success)</span>
+				</div>
+				<div class="progress-bar progress-bar-warning1" style="width: 50%">
+					<span class="sr-only"></span>
+				</div>
+				<p>80%</p>
+				<div class="clearfix"></div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-success3" style="width: 30%">小程序
+					<span class="sr-only">35% Complete (success)</span>
+				</div>
+				<div class="progress-bar progress-bar-warning3 " style="width: 20%">
+					<span class="sr-only"></span>
+				</div>
+				<p>50%</p>
+				<div class="clearfix"></div>
+			</div>
+			<!-- <div class="progress">
+				<div class="progress-bar progress-bar-success2" style="width: 30%">Less
+					<span class="sr-only">35% Complete (success)</span>
+				</div>
+				<div class="progress-bar progress-bar-warning2" style="width: 40%">
+					<span class="sr-only"></span>
+				</div>
+				<p>70%</p>
+				<div class="clearfix"></div>
+			</div> -->
+			<div class="progress">
+				<div class="progress-bar progress-bar-success5" style="width: 30%">Webpack
+					<span class="sr-only">35% Complete (success)</span>
+				</div>
+				<div class="progress-bar progress-bar-warning5" style="width: 20%">
+					<span class="sr-only"></span>
+				</div>
+				<p>50%</p>
+				<div class="clearfix"></div>
+			</div>
+			<div class="progress no-marg">
+				<div class="progress-bar progress-bar-success4" style="width: 30%">jQuery
+					<span class="sr-only">35% Complete (success)</span>
+				</div>
+				<div class="progress-bar progress-bar-warning4" style="width: 55%">
+					<span class="sr-only"></span>
+				</div>
+				<p>85%</p>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="col-md-6 skill-right ">
+			<div class="scrollbar scrollbar1">
+				<div class="more-gds">
+					<div class="col-sm-3 more-left">
+						<span class="glyphicon glyphicon-scissors" aria-hidden="true"></span>
+					</div>
+					<div class="col-sm-9 more-right">
+						<h4>Design</h4>
+						<p>没有UI的情况下，能熟练使用Bootstrap进行页面样式布局</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="more-gds yes_marg">
+					<div class="col-sm-9 more-right2">
+						<h4>移动端</h4>
+						<p> 能帮助app端写一些内嵌的h5页面，熟悉amaze移动端框架、flexible.js等几种移动端适应方式</p>
+					</div>
+					<div class="col-sm-3 more-left">
+						<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="more-gds yes_marg">
+					<div class="col-sm-3 more-left">
+						<span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
+					</div>
+					<div class="col-sm-9 more-right">
+						<h4>兼容性</h4>
+						<p>能够处理浏览器（ie9+、chrome、firefox）间的差异，解决开发中遇到的浏览器兼容性问题</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="more-gds yes_marg">
+					<div class="col-sm-9 more-right2">
+						<h4>提升计划</h4>
+						<p>由于前面公司没有用一些热门框架，再努力学习一些前端热门框架</p>
+					</div>
+					<div class="col-sm-3 more-left">
+						<span class="glyphicon glyphicon-send" aria-hidden="true"></span>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- more skills-end -->
+<!-- work experience -->
+<div class="employment">
+	<div class="container">
+		<h3 class="tittle ">Work Experience</h3>
+		<p class="abt-para "></p>
+		<div class="col-md-6 employ-left">
+			<h4>01</h4>
+		</div>
+		<div class="col-md-6 employ-right">
+			<h5><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>汕头联森科技</h5>
+			<p>2016.03--2016.10</p>
+		</div>
+		<div class="col-md-6 employ-left2">
+			<h5>汕头中尧信息科技<span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span></h5>
+			<p>2016.11--2018.04</p>
+		</div>
+		<div class="col-md-6 employ-right2">
+			<h4>02</h4>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- work experience-end -->
+<!-- portfolio -->
+<div class="portfolio">
+	<div class="container">
+		<h3 class="tittle ">Portfolio</h3>
+		<div class="portfolio-grids">
+			<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+			<script type="text/javascript">
+				$(document).ready(function () {
+									$('#horizontalTab').easyResponsiveTabs({
+										type: 'default', //Types: default, vertical, accordion
+										width: 'auto', //auto or any width like 600px
+										fit: true   // 100% fit in a container
+									});
+								});
+			</script>
+			<div class="sap_tabs">
+				<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+					<ul class="resp-tabs-list">
+						<li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>All</span></li>
+						<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Project</span></li>
+						<li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>Demo</span></li>
+					</ul>
+					<div class="resp-tabs-container">
+						<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+							<div class="col-md-3 team-gd ">
+								<div class="thumb">
+									<a href="#portfolioModal1" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/1.jpg" alt="">
+									<div class="team_pos">
+										<ul>
+											<li>
+												<div class="morph pic fb_icon1">
+												</div>
+											</li>
+										</ul>
+									</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 team-gd ">
+								<div class="thumb">
+									<a href="#portfolioModal2" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/2.jpg" alt="">
+									<div class="team_pos">
+										<ul>
+											<li>
+												<div class="morph pic fb_icon1">
+												</div>
+											</li>
+										</ul>
+									</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 team-gd ">
+								<div class="thumb">
+									<a href="#portfolioModal3" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/3.jpg" alt="">
+									<div class="team_pos">
+										<ul>
+											<li>
+												<div class="morph pic fb_icon1">
+												</div>
+											</li>
+										</ul>
+									</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 team-gd ">
+								<div class="thumb">
+									<a href="#portfolioModal4" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/4.jpg" alt="">
+									<div class="team_pos">
+										<ul>
+											<li>
+												<div class="morph pic fb_icon1">
+												</div>
+											</li>
+										</ul>
+									</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 team-gd yes_marg ">
+								<div class="thumb">
+									<a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/5.jpg" alt="">
+									<div class="team_pos">
+										<ul>
+											<li>
+												<div class="morph pic fb_icon1">
+												</div>
+											</li>
+										</ul>
+									</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 team-gd yes_marg ">
+								<div class="thumb">
+									<a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/6.jpg" alt="">
+									<div class="team_pos">
+										<ul>
+											<li>
+												<div class="morph pic fb_icon1">
+												</div>
+											</li>
+										</ul>
+									</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 team-gd yes_marg ">
+								<div class="thumb">
+									<a href="#portfolioModal7" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/7.jpg" alt="">
+									<div class="team_pos">
+										<ul>
+											<li>
+												<div class="morph pic fb_icon1">
+												</div>
+											</li>
+										</ul>
+									</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 team-gd yes_marg ">
+								<div class="thumb">
+									<a href="#portfolioModal8" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/8.jpg" alt="">
+									<div class="team_pos">
+										<ul>
+											<li>
+												<div class="morph pic fb_icon1">
+												</div>
+											</li>
+										</ul>
+									</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 team-gd yes_marg ">
+								<div class="thumb">
+									<a href="#portfolioModal9" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/9.jpg" alt="">
+									<div class="team_pos">
+										<ul>
+											<li>
+												<div class="morph pic fb_icon1">
+												</div>
+											</li>
+										</ul>
+									</div>
+									</a>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+							<div class="col-md-3 team-gd ">
+								<div class="thumb">
+									<a href="#portfolioModal1" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/1.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 team-gd ">
+								<div class="thumb">
+									<a href="#portfolioModal2" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/2.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 team-gd ">
+								<div class="thumb">
+									<a href="#portfolioModal3" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/3.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 team-gd ">
+								<div class="thumb">
+									<a href="#portfolioModal4" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/4.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 team-gd yes_marg ">
+								<div class="thumb">
+									<a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/5.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+							
+							<div class="col-md-3 team-gd ">
+								<div class="thumb">
+									<a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/6.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 team-gd ">
+								<div class="thumb">
+									<a href="#portfolioModal7" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/7.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 team-gd ">
+								<div class="thumb">
+									<a href="#portfolioModal8" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/8.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 team-gd ">
+								<div class="thumb">
+									<a href="#portfolioModal9" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/9.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- portfolio-end -->
+<!-- contact -->
+<div id="emailme" class="contact">
+	<div class="container">
+		<h3 class="tittle">Contact</h3>
+		<div class="col-md-6 contact-left ">
+			<div class="horizontal-tab">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#tab1" data-toggle="tab" aria-expanded="false">Contact me</a></li>
+					<li class=""><a href="#tab2" id="tab2" data-toggle="tab" aria-expanded="false">Hire me</a></li>
+				</ul>
+				<div class="tab-content">
+					<div class="tab-pane active in" id="tab1">
+						<div class="contact-form">
+							<ul>
+								<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>广东省广州市</li>
+								<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="javascript:;">wjcuij@qq.com</a></li>
+								<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>13433896784</li>
+							</ul>
+							<!-- <form>
+								<input type="text" placeholder="姓名" required="" id="name">
+								<input type="email" placeholder="邮箱" id="email" required="">
+								<textarea type="text" id="content" required="">Message...</textarea>
+								<input type="submit" value="Submit" onclick="mailsome1()">
+							</form> -->
+						</div>
+					 
+					</div>
+					
+				</div>
+            </div>
+		</div>
+		<div class="col-md-6 contact-right ">
+			<iframe src="map.html" frameborder="0" style="border:0"></iframe>
+		</div>
+		<div class="clearfix"></div>
+		<p class="copy-right">&copy 2017 Resume. All rights reserved | Design by <a href="https://github.com/wjcuij">HuangCJ</a></p>
+	</div>
+</div>
+<!-- contact-end -->
+<script src="js/bootstrap.js"></script>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>金融app</h3>
+                        <img src="images/1.jpg" class="img-responsive img-centered" alt="">
+                        <p>该项目主要是面向一些投资客户购买一些金融产品，用了media媒体查询和flexible.js进行编写</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>康婴健批发商城</h3>
+                        <img src="images/2.jpg" class="img-responsive img-centered" alt="">
+                        <p>该项目是一母婴产品批发商城，向用户展示商品信息、分类和购买的功能</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>汕头整形小程序</h3>
+                        <img src="images/3.jpg" class="img-responsive img-centered" alt="">
+                        <p>该项目是一个医美整形项目，开发周期为一个星期，主要使用flex进行布局，json文件配置window窗口，使用了小程序提供的地图api进行定位以及客服消息api</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>献爱宝后台</h3>
+                        <img src="images/4.jpg" class="img-responsive img-centered" alt="">
+                        <p>该项目是献爱宝后台管理，主使用了layui框架的模板引擎渲染、弹出层模块、日期与时间选择、分页、照片上传模块，verify.js和web-storage-cache.js进行登录验证识别，实现了企业管理审核、app用户管理、组织管理功能等等</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>献爱宝app2.0版本</h3>
+                        <img src="images/5.jpg" class="img-responsive img-centered" alt="">
+                        <p>该app是一个爱心平台app，主要是从1.0全新改版为2.0，使用了flexible.js框架进行字体适应，主要功能有动态爱心圈、爱心商城、爱心头条和公益活动组织等等，兼容了大部分机型</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>机械官网页面重构</h3>
+                        <img src="images/6.jpg" class="img-responsive img-centered" alt="">
+                        <p>使用scrollto构建页面，使用css3动画属性与javascript相结合的动态效果，使整个网页更具动态美观，也是对企业简介网站页面布局的一种全新理解。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>贪吃蛇小游戏</h3>
+                        <img src="images/7.jpg" class="img-responsive img-centered" alt="">
+                        <p>用js监听键盘事件写的一个简易贪吃蛇的小游戏</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>个人信息展示</h3>
+                        <img src="images/8.jpg" class="img-responsive img-centered" alt="">
+                        <p>使用bootstrap框架和media查询进行响应式的编写</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+                    <h3>重构手机维修商城</h3>
+                        <img src="images/9.jpg" class="img-responsive img-centered" alt="">
+                    </div>
+                    <p>通过js表单提交编写php文件验证登录，使用angular进行双向绑定，实现购物车实时改变购买数量功能。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/index.js"></script>	
+<!-- smooth scrolling -->
+<script type="text/javascript">
+	$(document).ready(function() {
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		$('#tab2').click(function(){
+			alert('敬请期待...')
+		})
+	});
+	// function mailsome1(){ 
+	// 	console.log(this);
+	// 	who=email.value;
+	// 	what=content.value;
+	// 	if (confirm("Are you sure you want to mail "+who+" with the subject of "+what+"?")==true){
+
+	// 	 parent.location.href='mailto:'+who+'?subject='+what+''; 
+	// 	} 
+	// } 
+
+</script>
+<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+</body>
+</html>
+
+
